@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>ONE SPORTS DAY 청백전 2026</title>
+<title>마석중 2026 스포츠클럽축제</title>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&family=Oswald:wght@700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css">
 <style>
@@ -778,9 +778,9 @@ body {
   <div class="header-inner">
     <div class="logo-area">
       <div class="logo-text">
-        <div class="year">2026 EWUHS</div>
-        <div class="title">ONE SPORTS DAY</div>
-        <div class="subtitle">청백전</div>
+        <div class="year">2026 MASEOK MS</div>
+        <div class="title">SPORTS CLUB FESTIVAL</div>
+        <div class="subtitle">스포츠클럽축제</div>
       </div>
     </div>
     <div class="live-badge" id="live-badge">
@@ -1560,11 +1560,11 @@ body {
 <!-- ════════ FOOTER ════════ -->
 <footer class="site-footer">
   <div class="footer-inner">
-    <div class="footer-school">이화여자대학교사범대학부속이화금란고등학교</div>
+    <div class="footer-school">마석중학교</div>
     <div class="footer-credit">
       Designed & Developed by <strong>seaforest</strong>
     </div>
-    <div class="footer-copy">© 2026 EWUHS One Sports Day. All rights reserved.</div>
+    <div class="footer-copy">© 2026 Maseok Middle School Sports Club Festival. All rights reserved.</div>
     <span class="footer-admin-link" onclick="openAdminLogin()">⚙</span>
   </div>
 </footer>
@@ -1663,7 +1663,7 @@ const db = firebase.database();
 // ══════════════════════════════
 // 관리자 모드 판별 (?admin=1234)
 // ══════════════════════════════
-const ADMIN_PASSWORD = "10000";
+const ADMIN_PASSWORD = "50017";
 const urlParams = new URLSearchParams(window.location.search);
 const IS_ADMIN = urlParams.get("admin") === ADMIN_PASSWORD;
 
@@ -2440,8 +2440,8 @@ async function fetchWeather() {
 function updateClock() {
   // D-day / LIVE 뱃지
   const now = new Date();
-  const eventDay = new Date('2026-05-14T08:00:00+09:00');
-  const eventEnd = new Date('2026-05-14T15:30:00+09:00');
+  const eventDay = new Date('2026-10-23T08:00:00+09:00');
+  const eventEnd = new Date('2026-10-23T15:30:00+09:00');
   const liveText  = document.getElementById('live-text');
   const liveDot   = document.getElementById('live-dot');
   const liveBadge = document.getElementById('live-badge');
